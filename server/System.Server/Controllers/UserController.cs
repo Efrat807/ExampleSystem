@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System.Repository;
 
 namespace System.Server.Controllers
 {
@@ -6,6 +7,11 @@ namespace System.Server.Controllers
     [Route("api/[controller]")]
     public class UserController
     {
-      //  public readonly Mongo
+        public readonly MongoRepository _repository;
+
+        public UserController(MongoRepository repository)
+        {
+            _repository = repository;
+        }
     }
 }
