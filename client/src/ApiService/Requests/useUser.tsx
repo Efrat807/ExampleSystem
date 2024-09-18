@@ -8,13 +8,18 @@ export const useGetAllUsers = (options?: QueryOptions<IUser[]>) => {
 		queryKey: [USER_QUERY_KEY],
 		...options,
 	});
+	console.log(users, 'users');
+
 	return { users, ...queryInfo };
 };
 
 export const useGetUser = (id: string, options?: QueryOptions<IUser>) => {
 	const { data: user, ...queryInfo } = useQuery<IUser>({
 		queryKey: [`${USER_QUERY_KEY}/${id}`],
+		
 		...options,
 	});
+	console.log(user, 'user');
+	
 	return { user, ...queryInfo };
 };

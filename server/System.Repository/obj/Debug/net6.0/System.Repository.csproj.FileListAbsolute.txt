@@ -1,0 +1,14 @@
+C:\Users\User\ExampleSystem\server\System.Repository\bin\Debug\net6.0\System.Repository.deps.json
+C:\Users\User\ExampleSystem\server\System.Repository\bin\Debug\net6.0\System.Repository.runtimeconfig.json
+C:\Users\User\ExampleSystem\server\System.Repository\bin\Debug\net6.0\System.Repository.dll
+C:\Users\User\ExampleSystem\server\System.Repository\bin\Debug\net6.0\System.Repository.pdb
+C:\Users\User\ExampleSystem\server\System.Repository\obj\Debug\net6.0\System.Repository.csproj.AssemblyReference.cache
+C:\Users\User\ExampleSystem\server\System.Repository\obj\Debug\net6.0\System.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\ExampleSystem\server\System.Repository\obj\Debug\net6.0\System.Repository.AssemblyInfoInputs.cache
+C:\Users\User\ExampleSystem\server\System.Repository\obj\Debug\net6.0\System.Repository.AssemblyInfo.cs
+C:\Users\User\ExampleSystem\server\System.Repository\obj\Debug\net6.0\System.Repository.csproj.CoreCompileInputs.cache
+C:\Users\User\ExampleSystem\server\System.Repository\obj\Debug\net6.0\System.Repository.dll
+C:\Users\User\ExampleSystem\server\System.Repository\obj\Debug\net6.0\refint\System.Repository.dll
+C:\Users\User\ExampleSystem\server\System.Repository\obj\Debug\net6.0\System.Repository.pdb
+C:\Users\User\ExampleSystem\server\System.Repository\obj\Debug\net6.0\System.Repository.genruntimeconfig.cache
+C:\Users\User\ExampleSystem\server\System.Repository\obj\Debug\net6.0\ref\System.Repository.dll

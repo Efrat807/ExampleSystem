@@ -1,30 +1,20 @@
-import { useReducer } from 'react';
-
-interface CounterState {
-	count: number;
-}
-
-type Action = { type: 'increment' } | { type: 'decrement' };
-
-const reducer = (state: CounterState, action: Action): CounterState => {
-	switch (action.type) {
-		case 'increment':
-			return { count: state.count + 1 };
-		case 'decrement':
-			return { count: state.count - 1 };
-		default:
-			throw new Error();
-	}
-};
+import { Button } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
-	const [state, dispatch] = useReducer(reducer, { count: 0 });
-
+	const navigate = useNavigate();
 	return (
 		<div>
-			<h1>Count: {state.count}</h1>
-			<button onClick={() => dispatch({ type: 'increment' })}>+</button>
-			<button onClick={() => dispatch({ type: 'decrement' })}>-</button>
+			<h1>helllooooooo</h1>
+			<div style={{ display: 'flex', flexDirection: 'column' }}>
+				<Button onClick={() => navigate('/reducer')}>reducer</Button>
+				<Button onClick={() => navigate('/users')}>
+					users - fetch data
+				</Button>
+				<Button onClick={() => navigate('/usersTable')}>
+					users table
+				</Button>
+			</div>
 		</div>
 	);
 };

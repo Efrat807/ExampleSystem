@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Serilog;
 using server.Repository.Models;
 using System.Repository;
 
@@ -26,7 +27,8 @@ namespace System.Server.Controllers
                 return Ok(users);
             }
             catch (Exception ex)
-            {
+            {                
+                Log.Error(ex.Message);
                 return StatusCode(500, ex.Message);
             }
         }

@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\Users\\User\\ExampleSystem\\server\\System.Repository\\System.Repository.csproj": {
-      "version": "1.0.0",
+      "version": "1.0.8.3",
       "restore": {
         "projectUniqueName": "C:\\Users\\User\\ExampleSystem\\server\\System.Repository\\System.Repository.csproj",
         "projectName": "System.Repository",
@@ -34,12 +34,25 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "MongoDB.Bson": {
               "target": "Package",
               "version": "[2.23.1, )"
@@ -69,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }
